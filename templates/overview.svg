@@ -9,8 +9,8 @@ svg {
 #background {
   width: calc(100% - 10px);
   height: calc(100% - 10px);
-  fill: white;
-  stroke: rgb(225, 228, 232);
+  fill: #0d1117;
+  stroke: rgba(176, 80, 217, 1);
   stroke-width: 1px;
   rx: 6px;
   ry: 6px;
@@ -38,11 +38,7 @@ th {
   text-align: left;
   font-size: 14px;
   font-weight: 600;
-  color: rgb(3, 102, 214);
-}
-
-#gh-dark-mode-only:target th {
-  color: #58a6ff;
+  color: rgba(176, 80, 217, 1);
 }
 
 td {
@@ -51,12 +47,9 @@ td {
   padding: 0.25em;
   font-size: 12px;
   line-height: 18px;
-  color: rgb(88, 96, 105);
+  color: rgba(176, 80, 217, 1);
 }
 
-#gh-dark-mode-only:target td {
-  color: #c9d1d9;
-}
 
 tr {
   transform: translateX(-200%);
@@ -64,7 +57,7 @@ tr {
 }
 
 .octicon {
-  fill: rgb(88, 96, 105);
+  fill: rgba(200, 122, 233, 1);
   margin-right: 1ch;
   vertical-align: top;
 }
@@ -87,7 +80,7 @@ tr {
 
 <table>
 <thead><tr style="transform: translateX(0);">
-<th colspan="2">{{ name }}'s github</th>
+<th colspan="2">{{ name }} github</th>
 </tr></thead>
 <tbody>
 
